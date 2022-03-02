@@ -3,7 +3,7 @@
 }
 
 .populares__cabecalho {
-  margin: 0 10px;
+  /* margin: 0 10px; */
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #dcdcdc;
@@ -31,7 +31,6 @@
   grid-area: conteudo;
   padding: 1rem 0;
   width: 100%;
-  justify-content: center;
 }
 
 .populares__card {
@@ -40,10 +39,7 @@
     "card-imagem"
     "card-corpo";
   grid-template-columns: 100%;
-  grid-template-rows: 200px auto;
   background: #fdfdfd;
-  margin-right: 1rem;
-  width: calc(20% - 1rem);
 }
 
 .populares__card:last-child {
