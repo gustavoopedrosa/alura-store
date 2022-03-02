@@ -12,10 +12,13 @@
 }
 
 .cabecalho {
+  grid-area: header;
 }
 
 .conteudo {
+  grid-area: main;
 }
 
 .rodape {
+  grid-area: footer;
 }
